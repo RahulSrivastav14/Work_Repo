@@ -1,0 +1,6 @@
+THis is the first sample file created to test the operations using commands
+Commit successfully done
+
+-------------------------------------------------------------------------------------------------------------
+
+Changes made to the file now to check if it shows when "git status" command is run
