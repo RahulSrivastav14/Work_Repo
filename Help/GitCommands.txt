@@ -34,3 +34,5 @@
 15. git push //used to push data to central repository from the system
 
 16. git clone //used to clone a repository
+
+17. git rm -r --cached myFolder //Remove a folder without deleting it from the system
