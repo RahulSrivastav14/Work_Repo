@@ -36,3 +36,15 @@
 16. git clone //used to clone a repository
 
 17. git rm -r --cached myFolder //Remove a folder without deleting it from the system
+
+18. $ git ls-files
+$ git mv basicApp basicapp_temp
+$ git add .
+$ git commit -am "temporary change"
+$ git push origin master
+$ git mv basicapp_temp basicapp
+$ git add .
+$ git commit -am "change to desired name"
+$ git push origin master
+
+//To rename a folder without deleting files
