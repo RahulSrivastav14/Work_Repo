@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Learning</title>
+    <script type="text/javascript" src="script.js"></script>
+
+</head>
+
+<body>
+  <form> 
+    Length: <br>
+    <input type="number" id="length"> <br>
+
+    Breadth: <br>
+    <input type="number" id="breadth"> <br>
+    Height: <br>
+    <input type="number" id="height">
+    <br>
+    <input type="button" onclick="calcArea()" value="Get Area">
+    <input type="text" id="answer" size="14px">
+
+  </form>
+</body>
+</html>
+---------------------------------------------------------------------------------------------
+function calcArea (){
+var l = document.getElementById("length").value;
+var b = document.getElementById("breadth").value;
+var h = document.getElementById("height").value;
+
+var area = l*b*h;
+document.getElementById("answer").value = area;
+
+}
+    

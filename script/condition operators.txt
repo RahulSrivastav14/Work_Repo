@@ -1,0 +1,11 @@
+var a = 5; 
+var b = 9;
+var c = 11;
+var d = 12;
+
+if(a > b && c < d) {
+    document.write("The condition is True");
+}
+else {
+    document.write("The condition is False")
+}

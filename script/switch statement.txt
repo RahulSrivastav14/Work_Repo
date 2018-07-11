@@ -1,0 +1,19 @@
+var fruit = "strawberry";
+
+switch(fruit) {
+
+case "apple":
+document.write("Apple is 2$");
+break;
+
+case "pears":
+document.write("Pears is not available");
+break;
+
+case "strawberry":
+document.write("Its not strawberry season you fool");
+break;
+
+default:
+document.write("Fruit name does not match")
+}

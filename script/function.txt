@@ -1,0 +1,13 @@
+function sayhello() {
+
+    document.write("This is a Test Function");
+}
+sayhello();
+---------------------------------------------------------------------------------
+function calcArea (l, b, h){
+var area = l*b*h;
+
+document.write(area);
+}
+calcArea(5,5,5);
+-------------------------------------------------------------------------------

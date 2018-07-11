@@ -1,0 +1,12 @@
+var count = 5;
+
+while (count < 15) {
+
+document.write("This is a while Loop Yo <br />");
+count++;
+}
+do {
+
+    document.write("This is a do while Loop <br />");
+
+}while (count < 10);

@@ -1,0 +1,20 @@
+var a = 10; 
+var b = 9;
+
+if(a < b) {
+    var result = a + b;
+    document.write("The result would be: ", result);
+}
+else {
+    document.write("a is greater than b")
+}
+---------------------------------------------------------
+var a = 10; 
+var b = "9";
+
+if(a == b) {
+    document.write("The numbers are equal");
+}
+else {
+    document.write("Not equal")
+}
