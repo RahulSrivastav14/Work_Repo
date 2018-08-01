@@ -1,0 +1,50 @@
+##GIT COMMANDS##
+
+1. git init //Creating repository on your computer
+
+2. git remote add origin "Link" //To add origin to your machine
+
+3. git pull origin master //Pull all the data from your central repository
+
+4. git add //adding files to index
+	Note* - Before comiting or pushing data from system to central repository always add files to index
+
+5. git Status //Check files in the index
+
+6. //Adding username to git through the terminal/command prompt
+	i. git config -- global user.email "raoulsrivastav88@gmail.com"
+	ii.git config -- global user.name "RahulSrivastav14"
+
+7. git commit -m "Commit statement" //Creating a commit through the terminal
+
+8. git add -A //Adding multiple files to the index
+
+9. git add -a //commiting multiple files at the same time
+
+10. git branch "Branch Name" //Creating a new Branch
+
+11. git checkout "BranchName" //Switching between branches created
+
+12. ls //Listing out the content
+
+13. git merge BranchName //Used for merging branches with the master
+
+14. git log //check for the log files. Use the first 8 hexadecimals to check for the changes
+
+15. git push //used to push data to central repository from the system
+
+16. git clone //used to clone a repository
+
+17. git rm -r --cached myFolder //Remove a folder without deleting it from the system
+
+18. $ git ls-files
+$ git mv basicApp basicapp_temp
+$ git add .
+$ git commit -am "temporary change"
+$ git push origin master
+$ git mv basicapp_temp basicapp
+$ git add .
+$ git commit -am "change to desired name"
+$ git push origin master
+
+//To rename a folder without deleting files
