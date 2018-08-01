@@ -10,4 +10,9 @@
     <h1>Hello World. This is My first code since a century</h1> 
 </body>
 </html>
+<<<<<<< HEAD
 //This is a test//
+=======
+
+change additions by Rahul
+>>>>>>> Comiting change to 1St Code
